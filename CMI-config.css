@@ -5,7 +5,14 @@
 /* 请仔细阅读描述，按照需要修改数值，直到文本已经正确对齐 */
 /* 如果CMI已经显示正常，就不要改这些东西了 */
 
+/* ⚠️The default configuration file of CMI may not be suitable for all users. 
+      Users can make adjustments as needed. 
+      After the adjustments are completed, please back up this configuration file so that it can be quickly restored in case of version updates. */
+/*⚠️CMI默认配置文件不一定适合所有用户，用户可以按需调整。在调整完毕后，请备份此配置文件，以便于在版本更新后快速恢复配置文件 */
 
+
+
+/* -- Part of main -- */
 /* 1. 校正身份容器的菜单文本 */
 /* 1. Menu text for correcting the container */
 :root {
@@ -95,3 +102,20 @@
     --submenu-padding_cover: 38px;
   }
 }
+
+
+/* -- Part of CMI Preferences -- */
+  /* 扩展图标对齐。如果开启扩展图标对齐功能后没有正常对齐，修改下面的数值就可以了 */
+  /* 3. Align the icons of the extension with those of CMI */
+  /* Align extension icons in menu ( Enable to make the context menu more orderly.) */
+  /* If you have enabled the extended icon alignment function but the icons are not aligned correctly, please try changing the following values. */
+  :root {
+    /* 图标左边距（图标与左侧边框之间）The left margin of the icon */
+    --zen-cmenu-icon-margin-inline-start: 4px !important;
+    /* 图标右边距（图标与文字之间）Right margin of the icon */
+    --zen-cmenu-icon-margin-inline-end: 8px !important;
+    /* 图标上下边距（图标与上下菜单项之间）Top and bottom margins of the icon */
+    --zen-cmenu-icon-margin-block: 2px !important;
+    /* 图标固定尺寸（保证所有图标同高同宽，一般不要改） Fixed size of the icon. Generally, no changes are necessary.*/
+    --zen-cmenu-icon-size: 16px !important;
+  }

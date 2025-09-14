@@ -2030,17 +2030,6 @@ menuseparator {
   (
     -moz-pref("cmi-Switch-Icon-Package", 2)
   ) {
-  /* ==== 2. 自定义变量（方便后续统一调整） ==== */
-  :root {
-    /* 图标左边距（图标与左侧边框之间） */
-    --zen-cmenu-icon-margin-inline-start: 4px !important;
-    /* 图标右边距（图标与文字之间） */
-    --zen-cmenu-icon-margin-inline-end: 8px !important;
-    /* 图标上下边距（图标与上下菜单项之间） */
-    --zen-cmenu-icon-margin-block: 2px !important;
-    /* 图标固定尺寸（保证所有图标同高同宽） */
-    --zen-cmenu-icon-size: 16px !important;
-  }
 
   /* ==== 3. 针对所有上下文菜单项中的图标 ==== */
   menupopup > menuitem > .menu-icon,
@@ -2067,7 +2056,7 @@ menuseparator {
     /* 让文字紧贴图标右侧 */
     padding-inline-start: var(--zen-cmenu-icon-margin-inline-end);
   }
-    }
+  }
 }
 
 
