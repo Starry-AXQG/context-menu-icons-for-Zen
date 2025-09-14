@@ -2026,9 +2026,6 @@ menuseparator {
   @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
   @media (
     -moz-pref("cmi-Align-Extension-Icons")
-  ),
-  (
-    -moz-pref("cmi-Switch-Icon-Package", 2)
   ) {
 
   /* ==== 3. 针对所有上下文菜单项中的图标 ==== */
@@ -2054,7 +2051,7 @@ menuseparator {
     padding-inline-start: 0 !important; /* 重置可能已有的内边距 */
     margin-inline-start: 0 !important;  /* 重置可能已有的外边距 */
     /* 让文字紧贴图标右侧 */
-    padding-inline-start: var(--zen-cmenu-icon-margin-inline-end);
+    padding-inline-start: var(--zen-cmenu-icon-margin-inline-end) !important;
   }
   }
 }

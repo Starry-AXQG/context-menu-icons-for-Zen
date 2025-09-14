@@ -69,6 +69,22 @@
                                             /*Adjust the numerical values for aligning the sub-menu items */
 
     --submenu-padding_cover: 38px;
+
+
+/* -- Part of CMI Preferences -- */
+  /* 扩展图标对齐。如果开启扩展图标对齐功能后没有正常对齐，修改下面的数值就可以了 */
+  /* 3. Align the icons of the extension with those of CMI */
+  /* Align extension icons in menu ( Enable to make the context menu more orderly.) */
+  /* If you have enabled the extended icon alignment function but the icons are not aligned correctly, please try changing the following values. */
+
+    /* 图标左边距（图标与左侧边框之间）The left margin of the icon */
+    --zen-cmenu-icon-margin-inline-start: 5px !important;
+    /* 图标右边距（图标与文字之间）Right margin of the icon */
+    --zen-cmenu-icon-margin-inline-end: 12px !important;
+    /* 图标上下边距（图标与上下菜单项之间）Top and bottom margins of the icon */
+    --zen-cmenu-icon-margin-block: 2px !important;
+    /* 图标固定尺寸（保证所有图标同高同宽，一般不要改） Fixed size of the icon. Generally, no changes are necessary.*/
+    --zen-cmenu-icon-size: 16px !important;
   }
 }
 
@@ -100,18 +116,10 @@
 
     --submenu-padding: 34px;
     --submenu-padding_cover: 38px;
-  }
-}
 
 
-/* -- Part of CMI Preferences -- */
-  /* 扩展图标对齐。如果开启扩展图标对齐功能后没有正常对齐，修改下面的数值就可以了 */
-  /* 3. Align the icons of the extension with those of CMI */
-  /* Align extension icons in menu ( Enable to make the context menu more orderly.) */
-  /* If you have enabled the extended icon alignment function but the icons are not aligned correctly, please try changing the following values. */
-  :root {
     /* 图标左边距（图标与左侧边框之间）The left margin of the icon */
-    --zen-cmenu-icon-margin-inline-start: 4px !important;
+    --zen-cmenu-icon-margin-inline-start: 0px !important;
     /* 图标右边距（图标与文字之间）Right margin of the icon */
     --zen-cmenu-icon-margin-inline-end: 8px !important;
     /* 图标上下边距（图标与上下菜单项之间）Top and bottom margins of the icon */
@@ -119,3 +127,6 @@
     /* 图标固定尺寸（保证所有图标同高同宽，一般不要改） Fixed size of the icon. Generally, no changes are necessary.*/
     --zen-cmenu-icon-size: 16px !important;
   }
+}
+
+
