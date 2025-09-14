@@ -119,7 +119,7 @@
 
 
     /* 图标左边距（图标与左侧边框之间）The left margin of the icon */
-    --zen-cmenu-icon-margin-inline-start: 0px !important;
+    --zen-cmenu-icon-margin-inline-start: -1px !important;
     /* 图标右边距（图标与文字之间）Right margin of the icon */
     --zen-cmenu-icon-margin-inline-end: 8px !important;
     /* 图标上下边距（图标与上下菜单项之间）Top and bottom margins of the icon */
