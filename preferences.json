@@ -162,7 +162,7 @@
       "type": "string",
       "property": "cmi-Custom-Padding-Container",
       "label": "[Global]The left margin of the text in the custom container menu",
-      "default": "34pxpx",
+      "default": "34px",
       "placeholder": "default: 34px"
     },
    
@@ -172,7 +172,45 @@
     "margin": "25px 0 8px 0"
 },
 
+    {
+      "type": "string",
+      "property": "cmi-Custom-Margin-Checkmark-start",
+      "label": "--cmi-Custom-Margin-Checkmark-start",
+      "default": "11px",
+      "placeholder": "default: 11px"
+    },
 
+    {
+      "type": "string",
+      "property": "cmi-Custom-Margin-Checkmark-start_cover",
+      "label": "--cmi-Custom-Margin-Checkmark-start_cover",
+      "default": "11px",
+      "placeholder": "default: 11px"
+    },
+
+    {
+      "type": "string",
+      "property": "cmi-Custom-Margin-Checkmark-end",
+      "label": "--cmi-Custom-Margin-Checkmark-end",
+      "default": "7px",
+      "placeholder": "default: 7px"
+    },
+
+    {
+      "type": "string",
+      "property": "cmi-Custom-Margin-Checkmark-end_cover",
+      "label": "--cmi-Custom-Margin-Checkmark-end_cover",
+      "default": "11px",
+      "placeholder": "default: 11px"
+    },
+    
+    {
+      "type": "string",
+      "property": "cmi-Custom-Padding-Group",
+      "label": "--cmi-Custom-Padding-Group",
+      "default": "10px",
+      "placeholder": "default: 10px"
+    },
 
     {
 
