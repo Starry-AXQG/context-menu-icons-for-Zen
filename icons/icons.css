@@ -2073,12 +2073,6 @@ menuseparator {
 
 /* Shift the text to the right to make room for the custom icon.*/
 
-:root {
-  --fp-contextmenu-menuicon-margin-inline: 12px;
-  --fp-contextmenu-menuitem-padding-inline: 10px;
-  --fp-arrowpanel-menuicon-margin-inline: 14px;
-}
-
 menu > .menu-iconic-text,
 menuitem > .menu-iconic-text,
 #context-navigation > .menuitem-iconic::after {
