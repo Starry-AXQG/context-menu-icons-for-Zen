@@ -213,6 +213,29 @@
     },
 
     {
+      "type": "string",
+      "property": "cmi-fp-contextmenu-menuicon-margin-inline",
+      "label": "--fp-contextmenu-menuicon-margin-inline",
+      "default": "12px",
+      "placeholder": "default: 12px"
+    },    
+
+    {
+      "type": "string",
+      "property": "cmi-fp-contextmenu-menuitem-padding-inline",
+      "label": "--fp-contextmenu-menuitem-padding-inline",
+      "default": "10px",
+      "placeholder": "default: 10px"
+    },   
+    {
+      "type": "string",
+      "property": "cmi-fp-arrowpanel-menuicon-margin-inline",
+      "label": "--fp-arrowpanel-menuicon-margin-inline",
+      "default": "14px",
+      "placeholder": "default: 14px"
+    },           
+
+    {
 
         "type": "checkbox",
         "property": "svg.context-properties.content.enabled",

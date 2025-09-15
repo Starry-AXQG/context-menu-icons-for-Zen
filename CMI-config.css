@@ -32,9 +32,9 @@
 
        /* 全局规则 */
 :root {
-  --fp-contextmenu-menuicon-margin-inline: 12px;
-  --fp-contextmenu-menuitem-padding-inline: 10px;
-  --fp-arrowpanel-menuicon-margin-inline: 14px;
+  --fp-contextmenu-menuicon-margin-inline: var(--cmi-fp-arrowpanel-menuicon-margin-inline, 12px);
+  --fp-contextmenu-menuitem-padding-inline: var(--cmi-fp-contextmenu-menuitem-padding-inline, 10px);
+  --fp-arrowpanel-menuicon-margin-inline: var(--cmi-fp-arrowpanel-menuicon-margin-inline, 14px);
 }
 /* FluentUI: cmi-Switch-Icon-Package != 0 && != 2 */
 @media (not (-moz-pref("cmi-Switch-Icon-Package", 0)))
